@@ -58,6 +58,46 @@ ul.nav {
 
 
 /* ESTILO PARA GALERIA*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Divide en dos columnas iguales */
+    gap: 20px;
+    /* Espacio entre las columnas */
+    justify-items: align;
+    /* Centra horizontalmente los elementos en cada columna */
+    text-align: center;
+    /* Centra el texto dentro de cada div .planta */
+}
+
+.galeria img {
+    width: 500px;
+    /* Ancho fijo deseado */
+    height: 500;
+    /* Alto fijo deseado */
+}
+
+.planta {
+    background-color: #4A7453;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    /* Márgenes automáticos para centrar horizontalmente */
+    display: flex;
+    /* Usar flexbox */
+    flex-direction: column;
+    /* Apilar elementos verticalmente */
+    align-items: center;
+    /* Centrar elementos horizontalmente */
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #4A7453;
+    font-family: 'Roboto', sans-serif;
+}
 
 h2{
     font-size: 40px;
