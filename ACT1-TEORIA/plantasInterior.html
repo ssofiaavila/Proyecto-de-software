@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi jardín</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilosIA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Divide en dos columnas iguales */
+    gap: 20px;
+    /* Espacio entre las columnas */
+    justify-items: align;
+    /* Centra horizontalmente los elementos en cada columna */
+    text-align: center;
+    /* Centra el texto dentro de cada div .planta */
+}
+
+.galeria img {
+    width: 500px;
+    /* Ancho fijo deseado */
+    height: 500;
+    /* Alto fijo deseado */
+}
+
+h1 {
+    text-align: center;
+    color: #4A7453;
+    font-family: 'Roboto', sans-serif;
+}
+
+.planta {
+    background-color: #4A7453;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    /* Márgenes automáticos para centrar horizontalmente */
+    display: flex;
+    /* Usar flexbox */
+    flex-direction: column;
+    /* Apilar elementos verticalmente */
+    align-items: center;
+    /* Centrar elementos horizontalmente */
+    margin-bottom: 50px;
+}
+
+
+</style>
+
+<body>
+    <header>
+        <!-- HEADER -->
+        <div id="header">
+            <ul class="nav">
+                <li><a href="index.html">Mi jardín</a>
+                    <ul>
+                        <li><a href="plantasInterior.html">Plantas de interior</a></li>
+                        <li><a href="plantasExterior.html">Plantas de exterior</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="desarrollador.html">Desarrollador</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1> Plantas de interior</h1>
+
+        <div class="galeria"> 
+            <div class="planta">
+                <img src="imagenes/interior/ficusClasica.jpg" alt="Imagen de Ficus">
+                <h2>Ficus</h2>
+                <a class="button-link" href="info/ficus.pdf" download>Descargar ficha</a>
+            </div>
+            <div class="planta">
+                <img src="imagenes/interior/sanservieria.jpg" alt="Imagen de Sanservieria">
+                <h2>Sanservieria</h2>
+                <a class="button-link" href="info/sanserveria.pdf" download>Descargar ficha</a>
+            </div>
+            <div class="planta">
+                <img src="imagenes/interior/pothos.jpg" alt="Imagen de Pothos">
+                <h2>Pothos</h2>
+                <a class="button-link" href="info/pothos.pdf" download>Descargar ficha</a>
+            </div>
+            <div class="planta">
+                <img src="imagenes/interior/begonia.jpg" alt="Imagen de Begonia">
+                <h2>Begonia</h2>
+                <a class="button-link" href="info/begonia.pdf" download>Descargar ficha</a>
+            </div>
+
+        </div>
+        
+    </main>
+
+
+
+
+
+</body>
+
+</html>

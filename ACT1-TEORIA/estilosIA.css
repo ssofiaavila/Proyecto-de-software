@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+#header {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4A7453;
+    /* Agrega un fondo de color si lo deseas */
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #4A7453;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #1d3325;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+ul.nav {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ESTILO PARA GALERIA*/
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size:20px;
+}
+
+h2,h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Ajusta el relleno según sea necesario */
+    background-color: #fff;
+    /* Color de fondo del botón */
+    color: #4A7453;
+    /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    /* Radio para los bordes */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilo de hover para el botón */
+.button-link:hover {
+    background-color: #4A7453;
+    /* Cambia el color de fondo al pasar el ratón */
+    color: #fff;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.index{
+    background-image: url('/imagenes/wallpaper.jpg');
+    background-size: cover;
+    background-position: center center; /* Centra la imagen en el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 20px; /* Añade un relleno al contenido dentro de main */
+    color: #fff; /* Cambia el color del texto para que sea legible en el fondo */
+       height: 100vh;
+
+}
+.botones {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.button-access {
+    display: inline-block;
+    background-color: #4A7453;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px; /* Asegúrate de que no haya un margen grande aquí */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-access:hover {
+    background-color: #385a41; /* Cambia el color al pasar el ratón */
+}
+
+
+
+.bienvenida{
+    padding-top:100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.ventana{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    /* Márgenes automáticos para centrar horizontalmente */
+    display: flex;
+    /* Usar flexbox */
+    flex-direction: column;
+    /* Apilar elementos verticalmente */
+    align-items: center;
+    /* Centrar elementos horizontalmente */
+    margin-bottom: 50px;
+    background-color: #385a41;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+p{
+    padding-left: 10px;
+}
